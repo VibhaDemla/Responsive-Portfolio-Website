@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="icon" href="img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="stylee.css">
+
+    <!-- <script src="main.js"></script> -->
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Vibha <span>Demla</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#project" class="nav__link">Project</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toogle">
+                <i class="ri-menu-line"></i>
+            </div>
+
+
+        </nav>
+    </header>
+
+
+    <main class="main">
+
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h3 class="home__subtitle">
+                            Hello, <span>I'm</span>
+                        </h3>
+                        <h1 class="home__title">Vibha Demla</h1>
+                        <h3 class="home__education"> Front-end Developer</h3>
+                        <p class="home__description">
+                            With the knowledge in web develpoment and
+                            design, I offer the best projects resulting
+                            in quality work. Highly motivated and enthusiastic, ready to contribute to innovative
+                            software projects.
+                        </p>
+
+                        <a href="#contact" class="button">Let's Talk</a>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://github.com/VibhaDemla" target="blank" class="home_social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+
+                        <a href="" target="blank" class="home_social-link">
+                            <i class="ri-dribbble-line"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/vibha-demla-0abb1825b/" target="blank"
+                            class="home_social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__image">
+
+                    <svg class="home__blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="maskBlob" mask-type="alpha">
+                            <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+       170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+       447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+       587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+       438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" />
+                        </mask>
+                        <g mask="url(#maskBlob)">
+                            <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+       170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+       447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+       587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+       438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" />
+
+                            <rect x="37" width="476" height="630" fill="url(#pattern0)" />
+                        </g>
+
+                        <rect x="37" width="476" height="300" fill="url(#pattern1)" />
+
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)" />
+                            </pattern>
+
+                            <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)" />
+                            </pattern>
+
+
+                            <image class="home__img" id="imageBlob" width="640" height="925" href="./me.PNG">
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+
+        <!--about-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h3 class="section__subtitle">
+                        My <span>Intro</span>
+
+                    </h3>
+
+                    <h2 class="section__title">
+                        About Me
+                    </h2>
+
+                    <p class="about__description">
+                        I create various web pages like a Microsoft store webpage using utility classes of first utility
+                        framework of CSS that is Tailwind CSS.
+                    </p>
+
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+
+                <div class="about__image">
+                    <svg class="about__blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="maskBorder" mask-type="alpha">
+                            <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
+                       171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
+                       448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
+                       270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
+                       439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z" fill="black" />
+                        </mask>
+                        <g mask="url(#maskBorder)">
+                            <rect x="37" width="476" height="630" fill="url(#pattern2)" />
+
+                            <path d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
+                       192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
+                       580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
+                       40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
+                       175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z" stroke="black"
+                                stroke-width="10" />
+                        </g>
+
+                        <rect x="37" width="476" height="300" fill="url(#pattern3)" />
+
+                        <defs>
+                            <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)" />
+                            </pattern>
+
+                            <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)" />
+                            </pattern>
+
+
+                            <image class="about__img" id="imageBorder" width="640" height="940" href="./me.PNG">
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="skills section">
+            <div class="skills__container container grid">
+                <div class="skills__data">
+                    <h3 class="section__subtitle">
+                        Favorite <span>Skills</span>
+                    </h3>
+                    <h2 class="section__title">
+                        My skills
+                    </h2>
+                    <p class="skills__description">
+                        See fully what skill I have and perform,
+                        to develop the project for you.
+                    </p>
+
+                    <a href="#projects" class="button">See project</a>
+                </div>
+
+                <div class="skills__content">
+                    <ol class="skills__group">
+                        <li class="skills__item">HTML</li>
+                        <li class="skills__item">CSS</li>
+                        <li class="skills__item">Tailwind CSS</li>
+                    </ol>
+
+                    <ol class="skills__group" start="4">
+                        <li class="skills__item">JavaScript</li>
+                        <li class="skills__item">Node.js</li>
+                        <li class="skills__item">C++</li>
+                        <li class="skills__item">Python</li>
+                    </ol>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="services section" id="servives">
+            <h3 class="section__subtitle">
+                My <span>Services</span>
+            </h3>
+
+            <h2 class="section__title">
+                What i do
+            </h2>
+
+            <div class="srvices_container container grid">
+                <article class="services__card">
+                    <i class="ri-layout-3-line service__icon"></i>
+                    <h2 class="services__title">Web Developer</h2>
+                    <p class="services__description">
+                        Development of custom web pages using current technologies of the labor
+                        field. Rapidly build modern websites without ever leaving your HTML using TAILWIND.
+                        Efficiently use Node.js as backend service.
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-pantone-line service__icon"></i>
+                    <h2 class="services__title">Competitive Programmer</h2>
+
+                    <p class="services__description">
+                        An eager software engineering student with a passion for problem solving and coding, having
+                        proficiency in C++ and
+                        Python.
+                    </p>
+                </article>
+
+                </article>
+
+            </div>
+
+
+        </section>
+
+        <!--project-->
+
+        <section class="projects section" id="project">
+            <h3 class="section__subtitle">
+                My <span>Projects</span>
+            </h3>
+
+            <h2 class="section__subtitle">
+                Recent Projects
+            </h2>
+
+
+            <div class="projects__container container grid">
+                <article class="projects__card">
+                    <h2 class="section__subtitle">
+                        <span>1. Website Clone</span>
+                    </h2><br>
+                    <h3 class="section__subtitle">
+                        A responsive Microsoft store website clone using <span>TAILWIND CSS.</span>
+                    </h3><br>
+                    
+
+
+                    <!-- <div class="project__modal">
+                        <span class="project__subtitle">Web
+                        </span>
+
+                        <h2 class="project__title">Modern Website</h2>
+
+                        <a href="#" class="project__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div> -->
+                </article>
+                <article class="projects__card">
+                    <h2 class="section__subtitle">
+                        <span>2. Automated Lost and Found Management System</span>
+                    </h2><br>
+                    <h3 class="section__subtitle">
+                        A <span>PYTHON</span> based web application used to manage lost and found items of the general public inside
+                        the college campus
+                        • Helps people who have lost their belongings to get them back with just a few clicks
+                    </h3><br>
+                
+                </article>
+
+            </article>
+            <article class="projects__card">
+                <h2 class="section__subtitle">
+                    <span>3. Ecommerce Clothing Website (ONGOING) </span>
+                </h2><br>
+                <h3 class="section__subtitle">
+                    Working on a full stack e-commerce website using various web frameworks such as <span>Node.js</span>.
+                    <span>Tailwind CSS</span> and other styling components are also used in the making of webpages.
+
+                </h3><br>
+            
+            </article>
+
+
+                <!-- <article class="projects__card">
+                    <img src="./project2.jpg" alt="project image" class="project__img">
+
+                    <div class="project__modal">
+                        <span class="project__subtitle">Web</span>
+
+                        <h2 class="project__title">Modern Website</h2>
+
+                        <a href="#" class="project__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article> -->
+
+                
+            </div>
+
+        </section>
+
+        <!--contact-->
+
+        <section class="contact section" id="contact">
+            <h3 class="section__subtitle">
+                Get in <span>Touch</span>
+            </h3>
+
+            <h2 class="section__title">
+                Contact Me
+            </h2>
+
+            <div class="contact__container container grid">
+                <form action="" class="contact__form" id="contact-form">
+                    <div class="contact__group">
+                        <input type="text" name="user_name" required placeholder="Enter your name"
+                            class="contact__input">
+                        <input type="email" name="user_email" required placeholder="Enter your email"
+                            class="contact__input">
+                    </div>
+
+                    <textarea name="user_project" required placeholder="Enter your message"
+                        class="contact__input"></textarea>
+
+                    <p class="contact__message" id="contact-message"></p>
+
+                    <button type="submit" class="button contact__button">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!--footer-->
+
+    <footer class="footer">
+        <div class="footer__container container grid">
+
+            <div>
+                <h1 class="footer__titile">
+                    Vibha <span>Demla</span>
+                </h1>
+
+                <h2 class="footer__education">
+                    Front-end Developer
+                </h2>
+            </div>
+
+            <div class="footer__social">
+                <a href="https://github.com/vibhademla" target="blank" class="footer_social-link">
+                    <i class="ri-github-line"></i>
+                </a>
+
+                <a href="https://www.instagram.com/vd_demla/" target="blank" class="footer_social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/vibha-demla-0abb1825b/" target="blank" class="footer_social-link">
+                    <i class="ri-linkedin-line"></i>
+                </a>
+            </div>
+
+            <span class="footer__copy">
+                &#169; Copyrigth Bedicode. All rigths reserved
+            </span>
+
+        </div>
+
+    </footer>
+
+    <!--scroll upppp-->
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+
+
+
+
+    <!--mail-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+
+    <!--scrollreveal-->
+
+    <script src="scroll.js"></script>
+
+
+
+
+
+
+
+
+
+    <!--     scripit        -->
+    <script>
+
+
+
+        const navmenu = document.getElementById("nav-menu")
+        const navtoggle = document.getElementById("nav-toogle")
+        const navclose = document.getElementById("nav-close")
+
+        if (navtoggle) {
+            navtoggle.addEventListener("click", () => {
+                navmenu.classList.add("show-menu")
+            })
+        }
+
+        if (navclose) {
+            navclose.addEventListener("click", () => {
+                navmenu.classList.remove("show-menu")
+            })
+        }
+
+
+
+
+
+        /*remove menu */
+        const navlink = document.querySelectorAll(".nav__item")
+
+        const linkaction = () => {
+            const navmenu = document.getElementById("nav-menu")
+            navmenu.classList.remove("show-menu")
+        }
+
+        navlink.forEach(n => n.addEventListener("click", linkaction))
+
+
+        const blurheader = () => {
+            const header = document.getElementById("header")
+            this.scrollY >= 50 ? header.classList.add("blur-header")
+                : header.classList.remove("blur-header")
+        }
+
+        window.addEventListener("scroll", blurheader)
+
+        /*email */
+
+
+
+        const contactform = document.getElementById("contact-form")
+        const contactmessage = document.getElementById("contact-message")
+
+
+        const sendEmail = (e) => {
+            e.preventDefault()
+
+            emailjs.sendForm("service_hm6pzlp", "template_0gwagap", "#contact-form", "5TbI9zq942GUMX_Sc")
+
+                .then(() => {
+
+                    contactmessage.textContent = "Message sent successfully"
+
+                    setTimeout(() => {
+                        contactmessage.textContent = " "
+
+                    }, 5000)
+
+                    contactform.reset()
+
+
+                }, () => {
+                    contactmessage.textContent = "message not sent"
+                })
+        }
+
+        contactform.addEventListener("submit", sendEmail)
+
+
+        /* scroll up*/
+
+        const scrollUup = () => {
+            const scrollUup = document.getElementById("scroll-up")
+            this.scrollY >= 50 ? scrollUup.classList.add("show-scroll")
+                : scrollUup.classList.remove("show-scroll")
+        }
+
+        window.addEventListener("scroll", scrollUup)
+
+        // /* scroll reveal */
+
+        // const sr = ScollReveal({
+        //     origin: "top",
+        //     distance: "60px",
+        //     duration: "2500",
+        //     delay: 400,
+        //     reset: true
+        // })
+
+        // sr.reveal(.home__data)
+
+
+
+    </script>
+
+
+</body>
+
+</html>
